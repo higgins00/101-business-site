@@ -36,7 +36,7 @@
             <a class="<?php active('prices.php');?>" href="quote.php">Pricing</a>
           </li>
           <li> 
-            <a class="<?php active('masseurs.php');?>" href="quote.php">Masseurs</a>
+            <a class="<?php active('team.php');?>" href="quote.php">Masseurs</a>
           </li>
           <li>
             <a class="<?php active('services.php');?>" href="quote.php">Services</a>
