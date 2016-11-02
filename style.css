@@ -1,15 +1,103 @@
-body {margin:0;}
+@import url('https://fonts.googleapis.com/css?family=Arimo|Merriweather');
 
+body {
+  margin:0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.625;
+  font-family: 'Arimo',sans-serif;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #616161;
+}
+
+a {
+  text-decoration: none;
+}
+
+address { 
+    display: block;
+    font-style: normal;
+}
 .wrapper {
   margin: 0 4em;
 }
+
+/*Responsive Grid */
+
+  /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+/*    .header {flex-direction: column;
+              justify-content: space-between;
+              }*/
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .header {flex-direction: row;
+            justify-content: space-between;}
+}
+
+/*Navigation Styles*/
+
+.topNav {
+  font-family: 'Merriweather', serif;
+  display: flex;
+  text-decoration: none;
+  padding: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.topNav--Active {
+  color: #001b4b;
+
+    }
+
+.topNav__Link {
+  color: #fd907a; 
+  transition: 0.3s;
+}
+
+
+.topNav__Link:hover {
+  color: #001b4b;
+  }
 
 ul {
   list-style: none;
 }
 
-ul.topnav {
-  font-family: "Times New Roman", Times, serif;
+ul.topNav {
+
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -17,56 +105,43 @@ ul.topnav {
   background-color: #fff;
 }
 
-ul.topnav img {
+ul.topNav img {
   padding-left: 2em;
   margin-right: 10em;
 }
 
-ul.topnav li {
+ul.topNav li {
   float: left;
   padding-right: 2em;
 }
 
-ul.topnav li a {
-  display: inline-block;
-  color: #fd907a;
-  font-weight: bold;
-  text-align: center;
-  padding: 1em;
-  text-decoration: none;
-  transition: 0.3s;
-  font-size: 17px;
-}
 
-ul.topnav li a:hover {
-  color: navy;
-  }
 
-ul.topnav li.icon {
+ul.topNav li.icon {
   display: none;
-  color: navy;
+  color: #001b4b;;
 }
 
 @media screen and (max-width:680px) {
-  ul.topnav li:not(:first-child) {display: none;}
-  ul.topnav li.icon {
+  ul.topNav li:not(:first-child) {display: none;}
+ .topNav__icon {
     float: right;
     display: inline-block;
   }
 }
 
 @media screen and (max-width:680px) {
-  ul.topnav.responsive {position: fixed;}
-  ul.topnav.responsive li.icon {
+  ul.topNav.responsive {position: fixed;}
+  ul.topNav.responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.topnav.responsive li {
+  ul.topNav.responsive li {
     float: none;
     display: inline;
   }
-  ul.topnav.responsive li a {
+  ul.topNav.responsive li a {
     display: block;
     text-align: left;
   }
@@ -78,27 +153,31 @@ ul.topnav li.icon {
 .row {
   margin-top: 4em;
   padding-bottom: 4em;
-  border-bottom: 1px solid rgba(234, 223, 214,0.3);
 }
+
+hr.line {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 .row::after {
     content: "";
     clear: both;
     display: block;
 }
+
 [class*="col-"] {
     float: left;
     padding: 15px;
 }
-html {
-    font-family: "Lucida Sans", sans-serif;
-}
+
 .header {
-  padding: 20px 60px 20px 60px;
+  padding: 52px 30px 46px;
   display: flex;
   align-items: center;
--webkit-box-shadow: 0px 31px 28px -6px rgba(234, 223, 214,0.3);
--moz-box-shadow: 0px 31px 28px -6px rgba(234, 223, 214,0.3);
-box-shadow: 0px 31px 28px -6px rgba(234, 223, 214,0.3);
+  box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.04);
 
 }
 
@@ -130,54 +209,11 @@ box-shadow: 0px 31px 28px -6px rgba(234, 223, 214,0.3);
 
 
 
+.footer {
+    background-color: #fcfbf4;
+    padding: 21px 30px;
 }
 
-.footer {
-    background-color: #0099cc;
-    color: #ffffff;
-    text-align: center;
-    font-size: 12px;
-    padding: 15px;
-}
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-}
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
-    .header {flex-direction: column;
-              justify-content: space-between;
-              }
-}
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-    .header {flex-direction: row;
-            justify-content: space-between;}
-}
 .services {
     align-items: center;
     justify-content: center;
@@ -201,3 +237,32 @@ font-weight: bold;
   padding: 0;
   margin-bottom: 0;
 }
+
+.btn {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    display: inline-block;
+    padding: 12px 37px;
+    border-radius: 30px;
+    border: 2px solid;
+    transition: 0.3s;
+}
+
+.topNav__btn {
+  color: #fff;
+  border-color: #fd907a;
+  background: #fd907a;
+}
+
+.topNav__btn:hover {
+    color: #fd907a;
+    border-color: #fd907a;
+    background: #fff;
+  }
+
+  .footer__Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
