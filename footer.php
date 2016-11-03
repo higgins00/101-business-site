@@ -6,7 +6,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row row--contactItems">
         <div class="col-3 col-m-6">
             <ul class="contacts-list">
                 <li><h5>Call Us Today:</h5></li>

@@ -117,6 +117,17 @@ address {
   }
 }
 
+/* ul Reset */
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+}
+
 /*Navigation Styles*/
 .topNav {
   font-family: 'Merriweather', serif;
@@ -136,11 +147,7 @@ address {
 .topNav__Link:hover {
   color: #001b4b;
 }
-ul {
-  list-style: none;
-}
 ul.topNav {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -208,9 +215,9 @@ hr.line {
   padding: 15px;
 }
 .header {
-  padding: 52px 30px 46px;
+  padding: 52px 0 46px 0;
   display: flex;
-  align-items: center;
+  justify-content: center;
   box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.04);
 }
 .header-image {
@@ -226,7 +233,6 @@ hr.line {
   url
 }
 .services ul {
-  list-style-type: none;
   margin: 0;
   padding: 0 15px;
 }
@@ -238,13 +244,10 @@ hr.line {
 }
 .footer {
   background-color: #fcfbf4;
-  padding: 21px 30px;
+
 }
 .services {
-  align-items: center;
-  justify-content: center;
   text-align: center;
-  padding-bottom: 0;
 }
 .services__img {
   width: 100%;
@@ -258,8 +261,6 @@ hr.line {
 .services__txt {
   color: #616161;
   line-height: 1.75;
-  padding: 0;
-  margin-bottom: 0;
 }
 .btn {
   font-size: 14px;
@@ -286,7 +287,10 @@ hr.line {
   margin-left: auto;
   margin-right: auto;
 }
-
+.row--contactItems {
+  display: flex;
+  justify-content: center;
+}
 h1.teamTitle {
   font-family: 'Merriweather', serif;
   font-weight: normal;
