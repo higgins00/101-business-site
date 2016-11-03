@@ -336,11 +336,15 @@ h3.team__title {
   margin-bottom: 0.25em;
  }
 
-
- .copyright__txt, .contact__txt {
+ .contact {
   color: #b0b0b0;
   font-size: 0.9em;
-  margin: 0;
+ }
+
+ .copyright__txt {
+  color: #b0b0b0;
+  font-size: 0.9em;
+    margin: 0;
   padding: 0;
  }
  .copyright {
@@ -375,6 +379,3 @@ input, textarea {
   font-size: 16px;
   font-weight: 100; 
 }
-
-.contact { 
-  color: #fd907a;  }
