@@ -7,7 +7,7 @@
     </div>
 
     <div class="row">
-        <div class="col-3 col-m-6">
+        <div class="col-3 col-m-6 contact">
             <ul class="fa-ul">
                 <li>
                     <i class="fa-li fa fa-phone icon" aria-hidden="true"></i>
