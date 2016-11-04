@@ -261,6 +261,15 @@ hr.line {
   color: #fd907a;
 }
 
+.social {
+  width: 40px;
+}
+
+.contact {
+  color: #b0b0b0;
+  font-size: 14px;
+}
+
 .services {
   text-align: center;
 }
@@ -333,17 +342,19 @@ h3.team__title {
   font-size: 13px;
   color: #b0b0b0;
 }
- h4.contact__title {
+ .contact__title {
   font-family: 'Merriweather', serif;
   color: #001b4b;
   font-weight: 400;
   margin-bottom: 0.25em;
+  font-size: 16px;
  }
+
 
  .copyright__txt {
   color: #b0b0b0;
   font-size: 0.9em;
-    margin: 0;
+  margin: 0;
   padding: 0;
  }
  .copyright {
@@ -367,8 +378,54 @@ h3.team__title {
   padding-bottom: 0;
  }
 
-input, textarea {
+input[type=text],
+input[type=email],
+textarea {
   width: 100%;
+  border: 0;
+  border-radius: 15px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  padding: 4px;
+}
+
+input[type=text],
+input[type=email]{
+  height: 35px;
+}
+
+textarea {
+  resize: none;
+  height: 200px;
+}
+
+input[type=submit] {
+   font-size: 14px;
+  line-height: 23px;
+  font-weight: 300;
+  display: inline-block;
+  padding: 12px 37px;
+  border-radius: 30px;
+  border: 2px solid;
+  transition: 0.3s;
+  color: #fff;
+  border-color: #fd907a;
+  background: #fd907a;
+
+}
+
+input[type=submit]:hover {
+    color: #fd907a;
+  border-color: #fd907a;
+  background: #fff;
+}
+
+label {
+display: block;
+width: 150px;
+float: left;
+padding-left: 10px;
+padding-bottom: 5px;
 }
 
 .form__title {

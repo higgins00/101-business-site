@@ -22,7 +22,7 @@
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
   font-size: 1.33333333em;
-  line-height: 0.75em;
+  line-height: 1em;
   vertical-align: -15%;
 }
 .fa-2x {
@@ -53,11 +53,11 @@
   position: absolute;
   left: -2.14285714em;
   width: 2.14285714em;
-  top: 0.14285714em;
+  top: 0.17em;
   text-align: center;
 }
 .fa-li.fa-lg {
-  left: -1.85714286em;
+  left: -2.3em;
 }
 .fa-border {
   padding: .2em .25em .15em;

@@ -10,7 +10,7 @@
         <div class="col-3 col-m-6 contact">
             <ul class="fa-ul">
                 <li>
-                    <i class="fa-li fa fa-phone icon" aria-hidden="true"></i>
+                    <i class="fa-li fa fa-phone icon fa-lg" aria-hidden="true"></i>
                     <h4 class="contact__title">Call Today:</h4>
                 </li>
                 <li>555-123-5353</li>
@@ -21,7 +21,7 @@
         <div class="col-3 col-m-6 contact">
             <ul class="fa-ul">
                 <li>
-                    <i class="fa-li fa fa-envelope-o icon" aria-hidden="true"></i>
+                    <i class="fa-li fa fa-envelope-o icon fa-lg" aria-hidden="true"></i>
                     <h4 class="contact__title">Email:</h4>
                 </li>
                  <address>
@@ -35,7 +35,7 @@
         <div class="col-3 col-m-6 contact">
             <ul class="fa-ul">
                 <li>
-                    <i class="fa-li fa fa-map-o icon" aria-hidden="true"></i>
+                    <i class="fa-li fa fa-map-o icon fa-lg" aria-hidden="true"></i>
                     <h4 class="contact__title">Address:</h4>
                 </li>
                 <li class="contact_txt">1163 N State St, Chicago</li>
@@ -46,7 +46,7 @@
         <div class="col-3 col-m-6 contact">
             <ul class="fa-ul">
                 <li>
-                    <i class="fa-li fa fa-clock-o icon" aria-hidden="true"></i>
+                    <i class="fa-li fa fa-clock-o icon fa-lg" aria-hidden="true"></i>
                     <h4 class="contact__title">Opening Hours:</h4>
                 </li>
                 <li>Mon-Fri: 9ampm-6pm;</li>
