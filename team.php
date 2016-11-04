@@ -70,7 +70,7 @@
                 <textarea></textarea>
             </div>
 
-            <input type="submit" value="Send">
+            <input class="btn topNav__btn" type="submit" value="Send">
             
         </form>
     </div>

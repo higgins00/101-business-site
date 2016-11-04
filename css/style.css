@@ -385,13 +385,9 @@ textarea {
   border: 0;
   border-radius: 15px;
   background-color: #f8f8f8;
-  font-size: 16px;
+  font-size: 18px;
+  height: 45px;
   padding: 4px;
-}
-
-input[type=text],
-input[type=email]{
-  height: 35px;
 }
 
 textarea {
@@ -400,25 +396,9 @@ textarea {
 }
 
 input[type=submit] {
-   font-size: 14px;
-  line-height: 23px;
-  font-weight: 300;
-  display: inline-block;
-  padding: 12px 37px;
-  border-radius: 30px;
-  border: 2px solid;
-  transition: 0.3s;
-  color: #fff;
-  border-color: #fd907a;
-  background: #fd907a;
-
+  margin-left: 15px;
 }
 
-input[type=submit]:hover {
-    color: #fd907a;
-  border-color: #fd907a;
-  background: #fff;
-}
 
 label {
 display: block;
@@ -432,6 +412,11 @@ padding-bottom: 5px;
   font-family: 'Merriweather', serif;
   text-align: center;
   color: #001b4b;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 100; 
+  margin-bottom: 0;
+}
+
+.row.form {
+  margin-top: 5px;
 }
