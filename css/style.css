@@ -21,10 +21,6 @@ address {
   font-style: normal;
 }
 
-.wrapper {
-  margin: 0 4em 0 4em;
-}
-
 /*Responsive Grid */
 
 /* For mobile phones: */
@@ -198,8 +194,7 @@ ul.topNav li {
 }
 
 .row {
-  margin-top: 4em;
-  padding-bottom: 4em;
+padding: 70px;
 }
 
 .row--team {
@@ -302,6 +297,10 @@ hr.line {
   transition: 0.3s;
 }
 
+.btn__bottom {
+  align-self: flex-end;
+}
+
 .topNav__btn {
   color: #fff;
   border-color: #fd907a;
@@ -329,6 +328,15 @@ h1.team__title {
 
 }
 
+h1.price__title {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 28px;
+
+}
+
 h2.team__title {
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -337,12 +345,31 @@ h2.team__title {
   font-weight: 400
 }
 
+h2.price__title {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: #fd907a;
+  font-size: 70px;
+  font-weight: 500;
+}
+
 h3.team__title {
   margin-top: 0px;
   padding-top: 0px;
   font-size: 13px;
   color: #b0b0b0;
 }
+
+h3.price__title {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #b0b0b0;
+  letter-spacing: 3px;
+  line-height: .25;
+}
+
  .contact__title {
   font-family: 'Merriweather', serif;
   color: #001b4b;
@@ -459,4 +486,37 @@ padding-bottom: 5px;*/
 
 .quote__box {
   background-color: #F8F3ED;
+}
+
+.pricing__box {
+  text-align: center;
+  padding: 50px;
+
+}
+
+.price__txt {
+  margin-top: 60px;
+}
+
+.pricing__box .topNav__btn {
+  font-family: 'Merriweather', serif;
+  margin-top: 40px;
+}
+.pricing__box:hover, 
+.pricing__box:hover .price__title {
+  color: #fff;
+  border-color: #fd907a;
+  background: #fd907a;
+}
+
+.pricing__box:hover .topNav__btn {
+  color: #001b4b;
+  border-color: #fd907a;
+  background: #fff;
+}
+
+.icon_border {
+  border-radius: 50px;
+  border: #fd907a 2px solid;
+
 }
