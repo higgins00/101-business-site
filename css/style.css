@@ -91,6 +91,7 @@ address {
 @media only screen and (min-width:768px) {
 
   /* For desktop: */
+
   .col-1 {
     width: 8.33%;
   }
@@ -295,7 +296,7 @@ hr.line {
   line-height: 23px;
   font-weight: 300;
   display: inline-block;
-  padding: 12px 37px;
+  padding: 9px 37px;
   border-radius: 30px;
   border: 2px solid;
   transition: 0.3s;
@@ -404,8 +405,9 @@ label {
 display: block;
 width: 150px;
 float: left;
-padding-left: 10px;
-padding-bottom: 5px;
+padding: 10px 10px 5px 0px;
+/*padding-left: 10px;
+padding-bottom: 5px;*/
 }
 
 .form__title {
@@ -419,4 +421,42 @@ padding-bottom: 5px;
 
 .row.form {
   margin-top: 5px;
+}
+
+.contact_half {
+  width: 48%;
+  display: inline-block;
+}
+
+.contact_half:first-child {
+  margin-right: 25px;
+}
+
+.contact__head {
+  font-family: 'Merriweather', serif;
+  color: #001b4b;
+  font-size: 24px;
+  font-weight: 100; 
+  margin-bottom: 0;
+
+}
+
+.contact__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-circle {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+
+.quote__box {
+  background-color: #F8F3ED;
 }

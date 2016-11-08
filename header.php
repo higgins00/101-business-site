@@ -34,7 +34,7 @@
             <a class="<?php active('index.php');?>" href="index.php">Home</a>
           </li>
           <li>
-            <a class="<?php active('prices.php');?>" href="prices.php">Pricing</a>
+            <a class="<?php active('pricing.php');?>" href="pricing.php">Pricing</a>
           </li>
           <li> 
             <a class="<?php active('team.php');?>" href="team.php">Masseurs</a>
@@ -43,7 +43,7 @@
             <a class="<?php active('services.php');?>" href="services.php">Services</a>
           </li>
           <li>
-            <a class="<?php active('contacts.php');?>" href="contacts.php">Contacts</a>
+            <a class="<?php active('contact.php');?>" href="contact.php">Contacts</a>
           </li>
           <li>
             <a class="btn topNav__btn" href="book.php">Book an appointment</a>

@@ -48,34 +48,29 @@
 
     <h1 class="form__title">Contact us</h1>
     <div class="row form">
-        <form>
 
-            <div class="col-6 col-m-12">
-                <label for="name">Your name *</label>
-                <input type="text" name="form_name" id="name">
-            </div>
+        <div class="col-12 col-m-12">
+            <form>
+                <div class="contact_half">
+                    <label for="name">Your name *</label>
+                    <input type="text" name="form_name" id="name">
+                </div>
 
-            <div class="col-6 col-m-12">
-                <label for="subject">Subject</label>
-                <input type="text" name="form_subject" id="subject">
-             </div>
+                <div class="contact_half">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="form_subject" id="subject">
+                </div>
 
-            <div class="col-12 col-m-12">
                 <label for="email">Email address *</label>
                 <input type="email" name="form_email" id="email">
-            </div>
 
-            <div class="col-12 col-m-12">
                 <label>Your message *</label>
                 <textarea></textarea>
-            </div>
 
-            <input class="btn topNav__btn" type="submit" value="Send">
-            
-        </form>
+                <input class="btn topNav__btn" type="submit" value="Send">
+            </form>
+        </div>
     </div>
-
-
 </div>
 
 <?php include ('footer.php'); ?>
