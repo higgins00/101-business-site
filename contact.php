@@ -1,8 +1,5 @@
 <?php include ('header.php'); ?>
 
-<div class="wrapper">
-
-
  <div class="row">
     <div class="contact__wrapper">
         <div class="col-3 col-m-12 find">
@@ -55,23 +52,24 @@
     
         <div class="col-8 col-m-12">
             <h1 class="form__title">Get in touch with us</h1>
-            <form>
+
+            <form method="post" action="contactengine.php">
 
                 <div class="contact_half">
-                    <label for="name">Your name *</label>
-                    <input type="text" name="form_name" id="name">
+                    <label for="Name">Your name *</label>
+                    <input type="text" name="form_name" id="Name">
                 </div>
 
                 <div class="contact_half">
-                    <label for="subject">Subject</label>
-                    <input type="text" name="form_subject" id="subject">
+                    <label for="Subject">Subject</label>
+                    <input type="text" name="form_subject" id="Subject">
                 </div>
 
-                <label for="email">Email address *</label>
-                <input type="email" name="form_email" id="email">
+                <label for="Email">Email address *</label>
+                <input type="email" name="form_email" id="Email">
             
                 <label>Your message *</label>
-                <textarea></textarea>
+                <textarea name="comments"></textarea>
 
                 <input class="btn topNav__btn" type="submit" value="Send">
             
