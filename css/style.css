@@ -406,7 +406,7 @@ padding: 70px;
   padding-bottom: 0;
  }
 
-.form__box {
+.contactForm__box {
   width: 100%;
   border: 0;
   border-radius: 15px;
@@ -416,26 +416,20 @@ padding: 70px;
   padding: 4px;
 }
 
-.form__box-txt {
+.contactForm__box-txt {
   resize: none;
   height: 200px;
 }
 
-input[type=submit] {
-  margin-left: 15px;
-}
-
-
-label {
+.contactForm__label {
 display: block;
 width: 150px;
 float: left;
 padding: 10px 10px 5px 0px;
-/*padding-left: 10px;
-padding-bottom: 5px;*/
+
 }
 
-.form__title {
+.formTitle {
   font-family: 'Merriweather', serif;
   text-align: center;
   color: #001b4b;
@@ -448,12 +442,12 @@ padding-bottom: 5px;*/
   margin-top: 5px;
 }
 
-.contact_half {
+.contactHalf {
   width: 47.75%;
   display: inline-block;
 }
 
-.contact_half:first-child {
+.contactHalf:first-child {
   margin-right: 25px;
 }
 

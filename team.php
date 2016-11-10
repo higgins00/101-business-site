@@ -46,26 +46,26 @@
         </div>
     </div>
 
-    <h1 class="form__title">Contact us</h1>
+    <h1 class="formTitle">Contact us</h1>
     <div class="row form">
 
         <div class="col-12 col-m-12">
-            <form>
-                <div class="contact_half">
-                    <label for="name">Your name *</label>
-                    <input class="form__box" type="text" name="form_name" id="name">
+            <form class="contactForm">
+                <div class="contactHalf">
+                    <label class="contactForm__label" for="name">Your name *</label>
+                    <input class="contactForm__box" type="text" name="form_name" id="name">
                 </div>
 
-                <div class="contact_half">
-                    <label for="subject">Subject</label>
-                    <input class="form__box" type="text" name="form_subject" id="subject">
+                <div class="contactHalf">
+                    <label class="contactForm__label" for="subject">Subject</label>
+                    <input class="contactForm__box" type="text" name="form_subject" id="subject">
                 </div>
 
-                <label for="email">Email address *</label>
-                <input class="form__box"  type="email" name="form_email" id="email">
+                <label class="contactForm__label" for="email">Email address *</label>
+                <input class="contactForm__box"  type="email" name="form_email" id="email">
 
-                <label>Your message *</label>
-                <textarea class="form__box form__box-txt"></textarea>
+                <label class="contactForm__label">Your message *</label>
+                <textarea class="contactForm__box contactForm__box-txt"></textarea>
 
                 <input class="btn topNav__btn" type="submit" value="Send">
             </form>

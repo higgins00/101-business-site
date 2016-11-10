@@ -49,28 +49,26 @@
         </div>
     
         <div class="col-8 col-m-12">
-            <h1 class="form__title">Get in touch with us</h1>
+            <h1 class="formTitle">Get in touch with us</h1>
 
-            <form method="post" action="contactengine.php">
-
-                <div class="contact_half">
-                    <label for="Name">Your name *</label>
-                    <input class="form__box" type="text" name="form_name" id="Name">
+            <form class="contactForm">
+                <div class="contactHalf">
+                    <label class="contactForm__label" for="name">Your name *</label>
+                    <input class="contactForm__box" type="text" name="form_name" id="name">
                 </div>
 
-                <div class="contact_half">
-                    <label for="Subject">Subject</label>
-                    <input class="form__box" type="text" name="form_subject" id="Subject">
+                <div class="contactHalf">
+                    <label class="contactForm__label" for="subject">Subject</label>
+                    <input class="contactForm__box" type="text" name="form_subject" id="subject">
                 </div>
 
-                <label for="Email">Email address *</label>
-                <input class="form__box" type="email" name="form_email" id="Email">
-            
-                <label>Your message *</label>
-                <textarea class="form__box form__box-txt" name="comments"></textarea>
+                <label class="contactForm__label" for="email">Email address *</label>
+                <input class="contactForm__box"  type="email" name="form_email" id="email">
+
+                <label class="contactForm__label">Your message *</label>
+                <textarea class="contactForm__box contactForm__box-txt"></textarea>
 
                 <input class="btn topNav__btn" type="submit" value="Send">
-            
             </form>
         </div>
     </div>
