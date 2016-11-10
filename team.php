@@ -46,7 +46,7 @@
         </div>
     </div>
 
-    <h1 class="formTitle">Contact us</h1>
+    <h1 class="subHeader">Contact us</h1>
     <div class="row form">
 
         <div class="col-12 col-m-12">

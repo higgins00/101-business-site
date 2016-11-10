@@ -49,7 +49,7 @@
         </div>
     
         <div class="col-8 col-m-12">
-            <h1 class="formTitle">Get in touch with us</h1>
+            <h1 class="subHeader">Get in touch with us</h1>
 
             <form class="contactForm">
                 <div class="contactHalf">

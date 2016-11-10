@@ -429,7 +429,7 @@ padding: 10px 10px 5px 0px;
 
 }
 
-.formTitle {
+.subHeader {
   font-family: 'Merriweather', serif;
   text-align: center;
   color: #001b4b;
@@ -480,30 +480,34 @@ padding: 10px 10px 5px 0px;
   background-color: #F8F3ED;
 }
 
-.pricing__box {
+.price {
   text-align: center;
   padding: 50px;
 
+}
+
+.price:hover, 
+.price:hover .price__title,
+.price:hover .price__title-bigPink,
+.price:hover .price__title-smallGray {
+  color: #fff;
+  border-color: #fd907a;
+  background: #fd907a;
 }
 
 .price__txt {
   margin-top: 60px;
 }
 
-.pricing__box .topNav__btn {
+.price__btn {
   font-family: 'Merriweather', serif;
   margin-top: 40px;
-}
-.pricing__box:hover, 
-.pricing__box:hover .price__title,
-.pricing__box:hover .price__title-bigPink,
-.pricing__box:hover .price__title-smallGray {
   color: #fff;
   border-color: #fd907a;
   background: #fd907a;
 }
 
-.pricing__box:hover .topNav__btn {
+.price:hover .price__btn{
   color: #001b4b;
   border-color: #fd907a;
   background: #fff;
