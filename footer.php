@@ -24,11 +24,9 @@
                     <i class="fa-li fa fa-envelope-o icon fa-lg" aria-hidden="true"></i>
                     <h4 class="contact__title">Email:</h4>
                 </li>
-                 <address>
-                    <li>
-                        <a class="contact__link" href="mailto:info@demolink">info@demolink</a>
-                    </li>
-                </address>
+                <li>
+                    <a class="contact__link" href="mailto:info@demolink">info@demolink</a>
+                </li>
             </ul>
         </div>
 
