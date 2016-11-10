@@ -2,25 +2,25 @@
 
     <div class="row">
         <div class="col-4 col-m-12 pricing__box">
-        	<h1 class="price__title">Pre &amp; postnatal Massages</h1>
-            <h2 class="price__title">$300</h2>
-            <h3 class="price__title">4 Sessions</h3>
+        	<h1 class="price__title-serif">Pre &amp; postnatal Massages</h1>
+            <h2 class="price__title-bigPink">$300</h2>
+            <h3 class="price__title-smallGray">4 Sessions</h3>
             <p class="price__txt">Our pre and postnatal massages have proven to be effective and absolutely safe, both for women and their unborn babies&hellip;</p>
              <a class="btn topNav__btn btn__space" href="book.php">Book an appointment</a>
         </div>
 
         <div class="col-4 col-m-12 pricing__box">
-            <h1 class="price__title">Intensive Massage Sessions</h1>
-            <h2 class="price__title">$400</h2>
-            <h3 class="price__title">4 Sessions</h3>
+            <h1 class="price__title-serif">Intensive Massage Sessions</h1>
+            <h2 class="price__title-bigPink">$400</h2>
+            <h3 class="price__title-smallGray">4 Sessions</h3>
             <p class="price__txt">This massage category is out most popular one and for a good reason. It gives you a completely refreshing experience!</p>
             <a class="btn topNav__btn btn__space" href="book.php">Book an appointment</a>
         </div>
 
         <div class="col-4 col-m-12 pricing__box">
-            <h1 class="price__title">Extravagent and fun-spirited</h1>
-            <h2 class="price__title">$500</h2>
-            <h3 class="price__title">4 Sessions</h3>
+            <h1 class="price__title-serif">Extravagent and fun-spirited</h1>
+            <h2 class="price__title-bigPink">$500</h2>
+            <h3 class="price__title-smallGray">4 Sessions</h3>
             <p class="price__txt">Try our "Hot Stones" or "Stones &amp; Sticks" massages, which are both fun ans good for your overall health and wellbeing!</p>
             <a class="btn topNav__btn btn__space" href="book.php">Book an appointment</a>
         </div>

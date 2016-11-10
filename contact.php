@@ -57,19 +57,19 @@
 
                 <div class="contact_half">
                     <label for="Name">Your name *</label>
-                    <input type="text" name="form_name" id="Name">
+                    <input class="form__box" type="text" name="form_name" id="Name">
                 </div>
 
                 <div class="contact_half">
                     <label for="Subject">Subject</label>
-                    <input type="text" name="form_subject" id="Subject">
+                    <input class="form__box" type="text" name="form_subject" id="Subject">
                 </div>
 
                 <label for="Email">Email address *</label>
-                <input type="email" name="form_email" id="Email">
+                <input class="form__box" type="email" name="form_email" id="Email">
             
                 <label>Your message *</label>
-                <textarea name="comments"></textarea>
+                <textarea class="form__box form__box-txt" name="comments"></textarea>
 
                 <input class="btn topNav__btn" type="submit" value="Send">
             

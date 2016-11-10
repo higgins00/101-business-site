@@ -201,7 +201,7 @@ padding: 70px;
   margin-top: 2em;
 }
 
-hr.line {
+.line {
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -318,7 +318,11 @@ hr.line {
   margin: 3em auto 0 auto;
 }
 
-h1.team__title {
+.title-serif {
+
+}
+
+.team__title-serif {
   font-family: 'Merriweather', serif;
   font-weight: 400;
   text-align: center;
@@ -328,7 +332,7 @@ h1.team__title {
 
 }
 
-h1.price__title {
+.price__title-serif{
   font-family: 'Merriweather', serif;
   font-weight: 400;
   margin-top: 1em;
@@ -337,7 +341,7 @@ h1.price__title {
 
 }
 
-h2.team__title {
+.team__title-pink {
   padding-bottom: 0px;
   margin-bottom: 0px;
   color: #fd907a;
@@ -345,7 +349,7 @@ h2.team__title {
   font-weight: 400
 }
 
-h2.price__title {
+.price__title-bigPink{
   padding-bottom: 0px;
   margin-bottom: 0px;
   color: #fd907a;
@@ -353,14 +357,14 @@ h2.price__title {
   font-weight: 500;
 }
 
-h3.team__title {
+.team__title-smallGray {
   margin-top: 0px;
   padding-top: 0px;
   font-size: 13px;
   color: #b0b0b0;
 }
 
-h3.price__title {
+.price__title-smallGray {
   margin-top: 0px;
   padding-top: 0px;
   font-size: 16px;
@@ -406,9 +410,7 @@ h3.price__title {
   padding-bottom: 0;
  }
 
-input[type=text],
-input[type=email],
-textarea {
+.form__box {
   width: 100%;
   border: 0;
   border-radius: 15px;
@@ -418,7 +420,7 @@ textarea {
   padding: 4px;
 }
 
-textarea {
+.form__box-txt {
   resize: none;
   height: 200px;
 }
@@ -451,7 +453,7 @@ padding-bottom: 5px;*/
 }
 
 .contact_half {
-  width: 48%;
+  width: 47.75%;
   display: inline-block;
 }
 
@@ -503,7 +505,9 @@ padding-bottom: 5px;*/
   margin-top: 40px;
 }
 .pricing__box:hover, 
-.pricing__box:hover .price__title {
+.pricing__box:hover .price__title,
+.pricing__box:hover .price__title-bigPink,
+.pricing__box:hover .price__title-smallGray {
   color: #fff;
   border-color: #fd907a;
   background: #fd907a;
