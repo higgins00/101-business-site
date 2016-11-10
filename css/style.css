@@ -16,11 +16,6 @@ a {
   text-decoration: none;
 }
 
-address {
-  display: block;
-  font-style: normal;
-}
-
 /*Responsive Grid */
 
 /* For mobile phones: */
@@ -397,6 +392,7 @@ padding: 70px;
 
  .contact__link {
   color: #fd907a;
+  font-style: normal;
 
  }
  .team__txt, .form {
