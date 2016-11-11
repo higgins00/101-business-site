@@ -6,7 +6,7 @@
             <h2 class="price__title-bigPink">$300</h2>
             <h3 class="price__title-smallGray">4 Sessions</h3>
             <p class="price__txt">Our pre and postnatal massages have proven to be effective and absolutely safe, both for women and their unborn babies&hellip;</p>
-             <a class="btn price__btn btn__space" href="book.php">Book an appointment</a>
+             <a class="btn btn--dark btn-space" href="book.php">Book an appointment</a>
         </div>
 
         <div class="col-4 col-m-12 price">
@@ -14,7 +14,7 @@
             <h2 class="price__title-bigPink">$400</h2>
             <h3 class="price__title-smallGray">4 Sessions</h3>
             <p class="price__txt">This massage category is out most popular one and for a good reason. It gives you a completely refreshing experience!</p>
-            <a class="btn price__btn btn__space" href="book.php">Book an appointment</a>
+            <a class="btn btn--dark btn-space" href="book.php">Book an appointment</a>
         </div>
 
         <div class="col-4 col-m-12 price">
@@ -22,7 +22,7 @@
             <h2 class="price__title-bigPink">$500</h2>
             <h3 class="price__title-smallGray">4 Sessions</h3>
             <p class="price__txt">Try our "Hot Stones" or "Stones &amp; Sticks" massages, which are both fun ans good for your overall health and wellbeing!</p>
-            <a class="btn price__btn btn__space" href="book.php">Book an appointment</a>
+            <a class="btn btn--dark btn-space" href="book.php">Book an appointment</a>
         </div>
     </div>
 
@@ -41,7 +41,7 @@
 
 	<div class="row quote__box">
 	  	<div class="col-12 col-m-12">
-	  		<h1>What our happy customers say:</h1>
+	  		<h1 class="subHeader">What our happy customers say:</h1>
 	  		<img src="Images/quote.png">
 	  		<q>Men rarely acknowledge how much they love to get a massage&hellip; But I want to say, that without my afterwork Friday massage sessions here, my productivity wouldv't been so much lower&hellip;</q>
 	  		<h3>Rhode Gentlebear</h3>
@@ -80,4 +80,3 @@
 
 
 <?php include ('footer.php'); ?>
-

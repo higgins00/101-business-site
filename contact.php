@@ -3,7 +3,7 @@
  <div class="row">
     <div class="contact__wrapper">
         <div class="col-3 col-m-12 find">
-        <h1 class="contact__head">Find Us</h1>
+        <h1 class="subHeader">Find Us</h1>
            
             <ul class="fa-ul">
                 <li>
@@ -43,7 +43,7 @@
             </ul>
             <ul>
                 <li>
-                    <a class="btn topNav__btn" href="book.php">Book an appointment</a>
+                    <a class="btn btn--dark btn-space" href="book.php">Book an appointment</a>
                 </li>
             </ul>
         </div>
@@ -68,7 +68,7 @@
                 <label class="contactForm__label">Your message *</label>
                 <textarea class="contactForm__box contactForm__box-txt"></textarea>
 
-                <input class="btn topNav__btn" type="submit" value="Send">
+                <input class="btn btn--dark btn-space" type="submit" value="Send">
             </form>
         </div>
     </div>
