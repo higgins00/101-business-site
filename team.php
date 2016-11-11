@@ -15,6 +15,7 @@ $employeePics = array(
 $employees = array(
 
         0 => array(
+            // "pic" => "source"
             "name" =>"Mary Casserole",
             "title" => "Salon Owner",
             "bio" => "Mary founded the salon with her own principal capital, which earned by working at other  massage salons and saving money for her dream. It makes a statement about how powerful and independent individual she is! She is a strong believer in the healing and revitalizing power of the massage therapy&hellip;",
@@ -46,18 +47,28 @@ $employees = array(
     <h1 class="team__title">Salon&rsquor;s Team</h1>
     
 
-        <div class="col-3 col-m-12">
-         <?php
+    <?php
 
-            foreach ($employees as $employees_arr) {
-                # code...
-            
-            echo "<h2 class='team__title-header'>" . $employees_arr['name'] . "</h2>";
-            }
+        foreach ($employees as $employees_arr) {
+            # code...
         ?>
-        </div>
+        
+            <div class="col-3 col-m-12 team">
+            <img class="team__img" src="Images/team/masseurs-02.jpg">
+                <h2 class="team__title-header"><?php echo $employees_arr["name"]; ?></h2>
+                <h3 class="team__title-subHeader"><?php echo $employees_arr["title"]; ?></h3>
+                <p class="team__txt"><?php echo $employees_arr["bio"]; ?></p>
+                <i class="fa fa-facebook icon social" aria-hidden="true"></i>
+                <i class="fa fa-twitter icon social" aria-hidden="true"></i>
+                <i class="fa fa-google-plus icon social" aria-hidden="true"></i>
+            </div>
 
-        <div class="col-3 col-m-12 team">
+        <?php
+
+        }
+    ?>
+
+        <!-- <div class="col-3 col-m-12 team">
         <img class="team__img" src="Images/team/masseurs-02.jpg">
             <h2 class="team__title-header">Elsa Grey</h2>
             <h3 class="team__title-subHeader">Senior Masseur</h3>
@@ -86,7 +97,7 @@ $employees = array(
             <i class="fa fa-facebook icon social" aria-hidden="true"></i>
             <i class="fa fa-twitter icon social" aria-hidden="true"></i>
             <i class="fa fa-google-plus icon social" aria-hidden="true"></i>
-        </div>
+        </div> -->
     </div>
 
     <h1 class="subHeader">Contact us</h1>
