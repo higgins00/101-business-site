@@ -53,6 +53,7 @@
 }
 
 [class*="col-"] {
+
   float: left;
 /*  padding: 15px;*/
 }

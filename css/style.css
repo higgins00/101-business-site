@@ -341,3 +341,7 @@ ul {
 .btn-space {
   margin-top: 40px;
 }
+
+.line {
+  background-color: #ccc;
+}
