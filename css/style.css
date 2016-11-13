@@ -76,15 +76,38 @@ ul {
 }
 
 .icon_border {
-  border-radius: 50px;
-  border: #fd907a 2px solid;
+  padding: 14px 16px 10px;
+  border: solid 2px #fd907a;
+  border-radius: 60px;
+  margin-right: 20px;
 }
 
 .social {
   width: 40px;
 }
 
+/*Home Header*/
+.home__header {
+  display: block;
+  margin: 25 auto;
+  width: 100%;
+  height: 475px;
+  background-image: url(../Images/index-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 
+.home__subHeader {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 290px;
+  background-image: url(../Images/index-05.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .service {
   text-align: center;
@@ -109,10 +132,26 @@ ul {
 
 .services__title {
   color: #fd907a;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.455;
+  letter-spacing: 0px;
+  text-align: inherit;
+}
+
+.services__title:after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+  height: 40px;
+  background-image: url(../Images/curls.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 .services__txt {
+  margin: 12px 0;
   color: #616161;
   line-height: 1.75;
 }
@@ -265,8 +304,7 @@ ul {
 
 .img-circle {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 40px auto 0 auto;
   object-fit: cover;
   width: 200px;
   height: 200px;
@@ -274,6 +312,7 @@ ul {
 }
 
 .quote__box {
+  text-align: center;
   background-color: #F8F3ED;
 }
 /*Price box style and hover */
@@ -290,7 +329,10 @@ ul {
   border-color: #fd907a;
   background: #fd907a;
 }
-
+.price__phone {
+  font-size: 40px;
+  display: inline-block;
+}
 .price__txt {
   margin-top: 60px;
 }
@@ -343,5 +385,11 @@ ul {
 }
 
 .line {
-  background-color: #ccc;
+  background-color: #eee
+  border: 0;
+  height: 1px;
+}
+
+.phoneNumber {
+  text-align: center;
 }

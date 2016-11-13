@@ -82,4 +82,39 @@ $services = array(
         "disc" => "Sports massage is one of the most popular forms of treatment for soft tissue injuries and for speeding the post-recovery up! Getting at least a weekly sports massage has additional advantages."
     ),
 );
+
+
+$price = array(
+
+    0 => array(
+        "title" => "Pre &amp; postnatal Massages",
+        "cost" => "$300",
+        "disc" => "Our pre and postnatal massages have proven to be effective and absolutely safe, both for women and their unborn babies&hellip;"
+    ),
+    1 => array(
+        "title" => "Intensive Massage Sessions",
+        "cost" => "$400",
+        "disc" => "This massage category is out most popular one and for a good reason. It gives you a completely refreshing experience!"
+    ),
+    2 => array(
+        "title" => "Extravagent and fun-spirited",
+        "cost" => "$500",
+        "disc" => "Try our 'Hot Stones' or 'Stones &amp; Sticks' massages, which are both fun ans good for your overall health and wellbeing!"
+    ),
+);
+
+$reason = array(
+    0 => array(
+        "title" => "Affordabillity",
+        "about" => "Something good should not always be unattainably priced&hellip; We aim to bring the balance to our quality/cost ratio, making it afforable for all citizens of Chicago!"
+    ),
+    1 => array(
+        "title" => "Variety",
+        "about" => "Our Chicago salon features the most diverse and universilly fit list of massage types. From intensive sports massage all the way to pre and post natal, or full body&hellip;"
+    ),
+    2 => array (
+        "title" => "Flexibility",
+        "about" => "We understand that people rarely have time to go to the massage salon during the working day or week&hellip; So we work 24/7, on-site and on the weekends as well!"
+        ),
+    );
 ?>

@@ -7,7 +7,6 @@
     <?php
         $output = array_slice($services, 0, 3);
         foreach ($output as $services_arr) {
-        
         ?>
 
         <div class="col-4 col-m-12 service">
@@ -16,7 +15,6 @@
             <h2 class="services__title">
                 <?php echo $services_arr["title"]; ?>
             </h2>
-            <img src="Images/curls.png">
             <p class="services__txt">
                 <?php echo $services_arr["disc"]; ?>
             </p>
@@ -25,7 +23,6 @@
     <?php } ?>
 
 </div>
-
 <hr class="line">
 
 <div class="row">
@@ -33,7 +30,6 @@
     <?php
         $output = array_slice($services, 3, 5);
         foreach ($output as $services_arr) {
-        
         ?>
 
         <div class="col-4 col-m-12 service">
@@ -42,7 +38,6 @@
             <h2 class="services__title">
                 <?php echo $services_arr["title"]; ?>
             </h2>
-            <img src="Images/curls.png">
             <p class="services__txt">
                 <?php echo $services_arr["disc"]; ?>
             </p>
