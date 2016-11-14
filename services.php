@@ -6,8 +6,7 @@
 
     <?php
         $output = array_slice($services, 0, 3);
-        foreach ($output as $services_arr) {
-        ?>
+        foreach ($output as $services_arr) { ?>
 
         <div class="col-4 col-m-12 service">
 
@@ -22,15 +21,15 @@
 
     <?php } ?>
 
+    <div class="col-12 col-m-12 line"></div>
+
 </div>
-<hr class="line">
 
 <div class="row">
 
     <?php
         $output = array_slice($services, 3, 5);
-        foreach ($output as $services_arr) {
-        ?>
+        foreach ($output as $services_arr) { ?>
 
         <div class="col-4 col-m-12 service">
 

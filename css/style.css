@@ -8,7 +8,7 @@ body {
   line-height: 1.625;
   font-family: 'Arimo', sans-serif;
   letter-spacing: 0px;
-  text-align: left;
+  text-align: center;
   color: #616161;
 }
 
@@ -89,14 +89,25 @@ ul {
 /*Home Header*/
 .home__header {
   display: block;
-  margin: 25 auto;
+  margin: 25px auto 0px auto;
   width: 100%;
-  height: 475px;
+  height: 460px;
   background-image: url(../Images/index-03.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+
+.homeHeader__text {
+    line-height: 1.35;
+    margin-bottom: 0;
+    padding: 60px 215px 15px;
+    font-weight: 300;
+    font-size: 46px;
+    margin-top: 0;
+    color: #001b4b;
+    font-family: 'Merriweather',serif;
+  }
 
 .home__subHeader {
   display: block;
@@ -110,12 +121,12 @@ ul {
 }
 
 .service {
-  text-align: center;
   padding: 35px;
 }
 
 .footer {
   background-color: #fcfbf4;
+  text-align: left;
 }
 
 .contact {
@@ -139,7 +150,8 @@ ul {
   text-align: inherit;
 }
 
-.services__title:after {
+.services__title:after,
+.reason__title:after {
   content: '';
   display: block;
   margin: 0 auto;
@@ -147,7 +159,7 @@ ul {
   height: 40px;
   background-image: url(../Images/curls.png);
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center;
 }
 
 .services__txt {
@@ -277,7 +289,6 @@ ul {
 
 .subHeader {
   font-family: 'Merriweather', serif;
-  text-align: center;
   color: #001b4b;
   font-size: 24px;
   font-weight: 100;
@@ -315,7 +326,40 @@ ul {
   text-align: center;
   background-color: #F8F3ED;
 }
-/*Price box style and hover */
+
+/*Reason box style and hover*/
+.reason {
+  background-color: #FFF9F6;
+  height: 350px;
+  width: 100%;
+
+}
+
+.reason__box {
+  margin: 0;
+  padding: 50px;
+  height: 100%;
+}
+.reason__box:hover {
+  color: #fff;
+  border-color: #fd907a;
+  background: #fd907a;
+  background-image: url(../Images/block-pattern.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.reason__title {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  color: #001b4b;
+}
+
+.reason__box:hover .reason__title {
+  color: #fff;
+}
+
+/*Price box style and hover*/
 .price {
   text-align: center;
   padding: 50px;
@@ -384,12 +428,33 @@ ul {
   margin-top: 40px;
 }
 
-.line {
-  background-color: #eee
-  border: 0;
-  height: 1px;
-}
-
 .phoneNumber {
   text-align: center;
+}
+
+.findUs {
+  text-align: left;
+}
+.findUs__title {
+  color: #001b4b;
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625;
+  font-family: 'Merriweather',serif;
+  letter-spacing: 0px;
+  text-align: inherit;
+
+
+}
+.findUs__txt {
+  color: #b0b0b0;
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.line {
+  border-bottom: 1px solid #eee;
 }

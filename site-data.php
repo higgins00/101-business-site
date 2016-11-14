@@ -117,4 +117,31 @@ $reason = array(
         "about" => "We understand that people rarely have time to go to the massage salon during the working day or week&hellip; So we work 24/7, on-site and on the weekends as well!"
         ),
     );
+
+$contact = array(
+    0 => array(
+        "icon" => "<i class='fa-li fa fa-phone icon fa-lg' aria-hidden='true'></i>",
+        "title" => "Call Today:",
+        "info" => "555-123-5353", 
+        "info2" => "555-12-2323"
+        ),
+    1 => array(
+        "icon" => "<i class='fa-li fa fa-envelope-o icon fa-lg' aria-hidden='true'></i>",
+        "title" => "E-mail:",
+        "info" => "<a class='contact__link' href='mailto:info@demolink.com'>info@demolink.com</a>",
+        "info2" => "",
+        ),
+    2 => array(
+        "icon" => "<i class='fa-li fa fa-map-o icon fa-lg' aria-hidden='true'></i>",
+        "title" => "Address:",
+        "info" => "1163 N State St, Chicago",
+        "info2" => "IL 60610, United States"
+        ),
+    3 => array(
+        "icon" => "<i class='fa-li fa fa-clock-o icon fa-lg' aria-hidden='true'></i>",
+        "title" => "Opening Hours:",
+        "info" => "Mon-Fri: 9ampm-6pm;",
+        "info2" => "Sun: 10am-1pm"
+        ),
+    );
 ?>
