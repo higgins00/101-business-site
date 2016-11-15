@@ -41,7 +41,9 @@
   .header { flex-direction: row; justify-content: space-between; }
   }
 
-.row { padding: 70px; }
+.row { padding: 60px; }
+
+.row-thin { padding: 30px; }
 
 * { box-sizing: border-box; }
 

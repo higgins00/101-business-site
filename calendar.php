@@ -14,7 +14,7 @@ class Calendar {
     }
      
     /********************* PROPERTY ********************/  
-    private $dayLabels = array("Mon","Tue","Wed","Thu","Fri","Sat","Sun");
+    private $dayLabels = array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
      
     private $currentYear=0;
      
@@ -74,6 +74,7 @@ class Calendar {
                                 $content.='<ul class="dates">';    
                                  
                                 $weeksInMonth = $this->_weeksInMonth($month,$year);
+
                                 // Create weeks in a month
                                 for( $i=0; $i<$weeksInMonth; $i++ ){
                                      
@@ -101,7 +102,7 @@ class Calendar {
          
         if($this->currentDay==0){
              
-            $firstDayOfTheWeek = date('N',strtotime($this->currentYear.'-'.$this->currentMonth.'-01'));
+            $firstDayOfTheWeek = date('N',strtotime($this->currentYear.'-'.$this->currentMonth.'-02'));
                      
             if(intval($cellNumber) == intval($firstDayOfTheWeek)){
                  
@@ -118,17 +119,25 @@ class Calendar {
              
             $this->currentDay++;   
              
-        }else{
+        } else{
              
-            $this->currentDate =null;
+            $this->currentDate = null;
  
-            $cellContent=null;
+            $cellContent = null;
+
         }
-             
-         
-        return '<li id="li-'.$this->currentDate.'" class="'.($cellNumber%7==1?' start ':($cellNumber%7==0?' end ':' ')).
-                ($cellContent==null?'mask':'').'">'.$cellContent.'</li>';
-    }
+        
+
+        $today_day = date("d");
+        $today_mon = date("m");
+        $today_yea = date("Y");
+        $this_holiday = date(format)
+        $class_day = ($cellContent == $today_day && $this->currentMonth == $today_mon && $this->currentYear == $today_yea ? "this_today" : "nums_days");
+
+        return '<li class="' . $class_day . '">' . $cellContent . '</li>' . "\r\n";
+
+
+}
      
     /**
     * create navigation
@@ -145,9 +154,9 @@ class Calendar {
          
         return
             '<div class="header">'.
-                '<a class="prev" href="'.$this->naviHref.'?month='.sprintf('%02d',$preMonth).'&year='.$preYear.'">&lt;</a>'.
-                    '<span class="title">'.date('M Y',strtotime($this->currentYear.'-'.$this->currentMonth.'-1')).'</span>'.
-                '<a class="next" href="'.$this->naviHref.'?month='.sprintf("%02d", $nextMonth).'&year='.$nextYear.'">&gt;</a>'.
+                '<a class="prev" href="'.$this->naviHref.'?month='.sprintf('%02d',$preMonth).'&year='.$preYear.'">&#10094;</a>'.
+                    '<span class="title">'.date('F Y',strtotime($this->currentYear.'-'.$this->currentMonth.'-1')).'</span>'.
+                '<a class="next" href="'.$this->naviHref.'?month='.sprintf("%02d", $nextMonth).'&year='.$nextYear.'">&#10095;</a>'.
             '</div>';
     }
          

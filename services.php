@@ -20,8 +20,11 @@
         </div>
 
     <?php } ?>
+</div>
 
+<div class="row-thin">
     <div class="col-12 col-m-12 line"></div>
+</div>
 
 </div>
 

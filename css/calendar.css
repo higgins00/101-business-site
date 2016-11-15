@@ -1,121 +1,130 @@
 /*******************************Calendar Top Navigation*********************************/
-div#calendar{
-  margin:0px auto;
-  padding:0px;
-  width: 602px;
-  font-family:Helvetica, "Times New Roman", Times, serif;
+div#calendar {
+    margin: 0px auto;
+    padding: 0px;
+    width: 702px;
+    font-family: 'Arimo', sans-serif;
 }
- 
-div#calendar div.box{
-    position:relative;
-    top:0px;
-    left:0px;
-    width:100%;
-    height:40px;
-    background-color:   #787878 ;      
+
+div#calendar div.box {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
 }
- 
-div#calendar div.header{
-    line-height:40px;  
-    vertical-align:middle;
-    position:absolute;
-    left:11px;
-    top:0px;
-    width:582px;
-    height:40px;   
-    text-align:center;
+
+div#calendar div.header {
+    line-height: 4px;
+    vertical-align: middle;
+    position: absolute;
+    left: 3px;
+    top: 0px;
+    width: 665px;
+    text-align: center;
 }
- 
-div#calendar div.header a.prev,div#calendar div.header a.next{ 
-    position:absolute;
-    top:0px;   
+
+/* Calender Next/Prev*/
+div#calendar div.header a.prev,
+div#calendar div.header a.next {
+    position: absolute;
+    top: 0px;
     height: 17px;
-    display:block;
-    cursor:pointer;
-    text-decoration:none;
-    color:#FFF;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fd907a;
 }
- 
-div#calendar div.header span.title{
-    color:#FFF;
-    font-size:18px;
+
+/* Month Title*/
+div#calendar div.header span.title {
+    color: #616161;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: none;
+    height: 60px;
 }
- 
- 
-div#calendar div.header a.prev{
-    left:0px;
+
+div#calendar div.header a.prev {
+    left: 0px;
 }
- 
-div#calendar div.header a.next{
-    right:0px;
+
+div#calendar div.header a.next {
+    right: 0px;
 }
- 
- 
- 
- 
+
 /*******************************Calendar Content Cells*********************************/
-div#calendar div.box-content{
-    border:1px solid #787878 ;
-    border-top:none;
+
+/*Outside border*/
+div#calendar div.box-content {
+    border: none;
 }
- 
- 
- 
-div#calendar ul.label{
-    float:left;
+
+div#calendar ul.label {
+    float: left;
     margin: 0px;
     padding: 0px;
-    margin-top:5px;
+    margin-top: 5px;
     margin-left: 5px;
 }
- 
-div#calendar ul.label li{
-    margin:0px;
-    padding:0px;
-    margin-right:5px;  
-    float:left;
-    list-style-type:none;
-    width:80px;
-    height:40px;
-    line-height:40px;
-    vertical-align:middle;
-    text-align:center;
-    color:#000;
+
+/* Date lables*/
+div#calendar ul.label li {
+    margin: 0px;
+    padding: 0 5px;
+    margin-right: 10px;
+    float: left;
+    list-style-type: none;
+    width: 89px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: left;
+    color: #fff;
+    background-color: #616161;
     font-size: 15px;
-    background-color: transparent;
+    border-radius: 3px;
+    font-weight: 700;
 }
- 
- 
-div#calendar ul.dates{
-    float:left;
+
+div#calendar ul.dates {
+    float: left;
     margin: 0px;
     padding: 0px;
     margin-left: 5px;
     margin-bottom: 5px;
 }
- 
+
 /** overall width = width+padding-right**/
-div#calendar ul.dates li{
-    margin:0px;
-    padding:0px;
-    margin-right:5px;
+div#calendar ul.dates li {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 5px;
+    margin-right: 10px;
     margin-top: 5px;
-    line-height:80px;
-    vertical-align:middle;
-    float:left;
-    list-style-type:none;
-    width:80px;
-    height:80px;
-    font-size:25px;
-    background-color: #DDD;
-    color:#000;
-    text-align:center; 
+    float: left;
+    list-style-type: none;
+    width: 89px;
+    height: 75px;
+    font-size: 36px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #fd907a;
+    text-align: left;
 }
- 
-:focus{
-    outline:none;
+
+div#calendar ul.dates li.this_today {
+    background-color: #001b4b;
+    color: #fff;
+    border-radius: 3px;
+
 }
- 
-div.clear{
-    clear:both;
-}     
+
+:focus {
+    outline: 1px solid #001b4b;
+}
+
+div.clear {
+    clear: both;
+}

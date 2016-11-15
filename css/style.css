@@ -123,7 +123,10 @@ ul {
 .service {
   padding: 35px;
 }
-
+.team {
+  text-align: left;
+  padding: 16px;
+}
 .footer {
   background-color: #fcfbf4;
   text-align: left;
@@ -457,4 +460,8 @@ ul {
 
 .line {
   border-bottom: 1px solid #eee;
+}
+
+.booking {
+  margin: 60px;
 }
