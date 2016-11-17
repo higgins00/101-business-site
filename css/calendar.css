@@ -118,12 +118,14 @@ div#calendar ul.dates li.this_today {
     background-color: #001b4b;
     color: #fff;
     border-radius: 3px;
-
 }
 
-:focus {
-    outline: 1px solid #001b4b;
+div#calendar ul.dates li.holiday {
+    background-color: #ccc;
+    color: red;
+    border-radius: 3px;
 }
+
 
 div.clear {
     clear: both;

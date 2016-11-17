@@ -38,27 +38,8 @@
     <div class="row form">
 
         <div class="col-12 col-m-12">
-            <form class="contactForm">
-                <div class="contactHalf">
-                    <label class="contactForm__label" for="name">Your name *</label>
-                    <input class="contactForm__box" type="text" name="form_name" id="name">
-                </div>
-
-                <div class="contactHalf">
-                    <label class="contactForm__label" for="subject">Subject</label>
-                    <input class="contactForm__box" type="text" name="form_subject" id="subject">
-                </div>
-
-                <label class="contactForm__label" for="email">Email address *</label>
-                <input class="contactForm__box"  type="email" name="form_email" id="email">
-
-                <label class="contactForm__label">Your message *</label>
-                <textarea class="contactForm__box contactForm__box-txt"></textarea>
-
-                <input class="btn btn--dark btn-space" type="submit" value="Send">
-            </form>
+            <?php include ('mail.php') ?>
         </div>
     </div>
-</div>
 
 <?php include ('footer.php'); ?>

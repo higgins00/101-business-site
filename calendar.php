@@ -127,12 +127,34 @@ class Calendar {
 
         }
         
+         $closed_day = array(
+            "11" => array(
+                "11",
+                "24",
+            ),
+            "12" => array(
+                "25"
+                ),
+        );
 
         $today_day = date("d");
         $today_mon = date("m");
         $today_yea = date("Y");
-        $this_holiday = date(format)
-        $class_day = ($cellContent == $today_day && $this->currentMonth == $today_mon && $this->currentYear == $today_yea ? "this_today" : "nums_days");
+        
+        if ($cellContent == $today_day && $this->currentMonth == $today_mon && $this->currentYear == $today_yea) {
+            $class_day = "this_today";
+
+        // } elseif (in_array($cellContent, $closed_day['12'])) { 
+        //         $class_day = "holiday";
+            
+            // will need to use nested loops, to get info out of closed_day
+
+        } else {
+            $class_day = "nums_days";
+        }
+
+
+       
 
         return '<li class="' . $class_day . '">' . $cellContent . '</li>' . "\r\n";
 
